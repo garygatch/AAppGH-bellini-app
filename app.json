@@ -18,16 +18,57 @@
       "mockedUserAccounts": []
     }
   },
+  "directories": {
+    "assets": [],
+    "components": [
+      {
+        "id": "tBAW3VcWUA3GR1kmPdbco",
+        "name": "dir"
+      }
+    ],
+    "pages": [
+      {
+        "id": "ObamnI60bfaRTLuaSUUxz",
+        "name": "dir"
+      }
+    ],
+    "scripts": [
+      {
+        "id": "LKP9KGNAy8S9JUT6HqRBP",
+        "name": "dir"
+      }
+    ],
+    "services": [
+      {
+        "id": "hIqMFr5Jd0SPyCMl5ThiE",
+        "name": "dir"
+      }
+    ],
+    "stylesheets": [
+      {
+        "id": "P6j2kudCa68mga3FArAhx",
+        "name": "dir"
+      }
+    ]
+  },
   "externalScripts": [],
   "externalStylesheets": [],
   "localScripts": [
     {
-      "path": "js1.js"
+      "path": "js2.js"
+    },
+    {
+      "path": "dir/js1.js",
+      "parentDirectoryId": "LKP9KGNAy8S9JUT6HqRBP"
     }
   ],
   "localStylesheets": [
     {
-      "path": "css1.css"
+      "path": "css2.css"
+    },
+    {
+      "path": "dir/css1.css",
+      "parentDirectoryId": "P6j2kudCa68mga3FArAhx"
     }
   ]
 }
